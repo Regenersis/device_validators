@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.authors     = ["Dave Kennedy"]
   s.email       = ["david@bangline.co.uk"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = "Mobile device validations"
+  s.description = "Gem for mobile device validations"
 
-  s.rubyforge_project = "device_validators"
+  #s.rubyforge_project = "device_validators"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
