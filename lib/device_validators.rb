@@ -1,5 +1,6 @@
 require "device_validators/version"
+require "device_validators/imei_validator"
 
 module DeviceValidators
-  # Your code goes here...
+  include ImeiValidator
 end
