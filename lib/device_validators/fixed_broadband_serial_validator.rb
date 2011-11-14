@@ -9,6 +9,6 @@ module FixedBroadbandSerialValidator
   end
 
   def self.correct_serial_format?(serial)
-    serial[0,2] == 'CP' || serial[0,2] == '10'  
+    serial[0,2] == 'CP' || serial[0,2] == '10' || serial[0,2] == '11'
   end
 end

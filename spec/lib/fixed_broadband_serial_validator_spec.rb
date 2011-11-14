@@ -13,6 +13,12 @@ describe "FixedBroadbandSerialValidator" do
         FixedBroadbandSerialValidator.valid?("10239158716").should be_true
       end
     end
+
+    context "with valid broadband serial number using the 11 prefix" do
+      it "return true" do
+        FixedBroadbandSerialValidator.valid?("119USA00158").should be_true
+      end
+    end
     
     context "with invalid broadband serial number" do
       it "return false" do
