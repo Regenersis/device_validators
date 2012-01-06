@@ -8,4 +8,5 @@ module DeviceValidators
   include FixedBroadbandSerialValidator
   include InternationalCallingCardValidator
   include SimSerialValidator
+  include MotorolaValidator
 end
